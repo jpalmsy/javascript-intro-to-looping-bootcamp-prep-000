@@ -18,10 +18,12 @@ function whileLoop(n) {
 
 function doWhileLoop(array) {
   function maybeTrue() {
-  return 
+  return array.length > 0 && maybeTrue()
 }
 
 do {
   console.log('doo-bee-doo-bee-doo')
 } while (maybeTrue());
+
+  return array
 }
