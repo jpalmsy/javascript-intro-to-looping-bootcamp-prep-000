@@ -22,7 +22,7 @@ function doWhileLoop(array) {
 }
 
 do {
-  array.splice(1)
+  array = array.slice(1)
 } while (maybeTrue());
 
   return array
