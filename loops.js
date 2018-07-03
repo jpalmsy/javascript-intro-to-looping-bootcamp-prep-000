@@ -16,4 +16,12 @@ function whileLoop(n) {
     return 'done'
 }
 
-function doWhileLoop(array)
+function doWhileLoop(array) {
+  function maybeTrue() {
+  return 
+}
+
+do {
+  console.log('doo-bee-doo-bee-doo')
+} while (maybeTrue());
+}
